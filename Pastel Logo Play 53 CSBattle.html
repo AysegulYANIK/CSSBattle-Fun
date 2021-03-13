@@ -1,0 +1,42 @@
+<div class="rectangle"></div>
+<div class="circle">
+	<div id="bottom-left"></div>
+</div>   
+
+<style>
+  body {
+    background: #19191A;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .rectangle{
+    position: relative;
+    height: 125px;
+    width: 72px;
+    left: -36px;
+    top: 37px;
+    background: #F9E492; 
+    
+  }
+  .circle {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -67%);
+	background-color: #4F77FF;
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+  }
+  #bottom-left {
+      width: 150px;
+      height: 150px;
+      background: #9AD5FF;
+      position: relative;
+      top: 75px;
+      left: -78px;
+  }
+</style>
